@@ -8,4 +8,3 @@ packages/**/*/lib
 coverage
 dist/
 typings/
-infura key/
