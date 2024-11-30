@@ -28,7 +28,7 @@ jobs:
       - run: npm test
         env:
           FORCE_COLOR: 1
-          INFURA_KEY: ${{ c95d4071a5ca4b1087d-c695b893b0a2b} }}
+          INFURA_KEY: c95d4071a5ca4b1087d-c695b893b0a2b
 
   build-all:
     strategy:
@@ -60,4 +60,4 @@ jobs:
       - run: npm test
         env:
           FORCE_COLOR: 1
-          INFURA_KEY: ${ c95d4071a5ca4b1087d-c695b893b0a2b}
+          INFURA_KEY: c95d4071a5ca4b1087d-c695b893b0a2b
